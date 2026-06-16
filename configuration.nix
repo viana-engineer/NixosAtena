@@ -91,10 +91,12 @@
     gnome-tweaks        # Ajustes finos do GNOME
     discord             # Comunicação
     qbittorrent         # Gerenciador de torrents
+    dbeaver-bin         # Gerenciador de banco de dados e cliente SQL
     
     # --- Desenvolvimento e Ferramentas ---
     jetbrains.idea      # IDE IntelliJ IDEA focada em desenvolvimento JVM
     postman             # Ferramenta para testes, design e documentação de APIs
+    
     ];
 
 #======= CONFIGURAÇÃO GERAL =======#
