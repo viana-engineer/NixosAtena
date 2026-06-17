@@ -13,6 +13,12 @@
   #======= COMANDO NIX E FLAKES =======#
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
+  #======= DIRENV E NIX-DIRENV =======#
+  programs.direnv = {
+    enable = true;
+    nix-direnv.enable = true;
+  };
+
   #======= ACELERAÇÃO GRAFICA =======#
   hardware.graphics = {
     enable = true;          # Habilita a aceleração gráfica no sistema
@@ -91,13 +97,15 @@
     gnome-tweaks        # Ajustes finos do GNOME
     discord             # Comunicação
     qbittorrent         # Gerenciador de torrents
-    dbeaver-bin         # Gerenciador de banco de dados e cliente SQL
+
     
     # --- Desenvolvimento e Ferramentas ---
     jetbrains.idea      # IDE IntelliJ IDEA focada em desenvolvimento JVM
     postman             # Ferramenta para testes, design e documentação de APIs
-    
-    ];
+    dbeaver-bin         # Gerenciador de banco de dados e cliente SQL
+    direnv              # Ferramenta que carrega variáveis de ambiente automaticamente ao entrar em diretórios
+    nix-direnv          # Extensão de alta performance para integrar o direnv ao ecossistema Nix (evita recompilações desnecessárias)
+  ];
 
 #======= CONFIGURAÇÃO GERAL =======#
   
