@@ -177,7 +177,7 @@
   #======= SEGURANÇA DA CONFIGURAÇÃO =======#
   # Mantém uma cópia do configuration.nix no sistema.
   # (/run/current-system/configuration.nix). Local da copia
-  system.copySystemConfiguration = true;
+  #system.copySystemConfiguration = true;
 
   #======= VERSÃO DO ESTADO =======#
   # Esta variável controla a compatibilidade do sistema. 
