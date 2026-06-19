@@ -6,18 +6,17 @@
   };
 
   outputs = { self, nixpkgs, ... }:
-  
     let
       system = "x86_64-linux";
-    in {
-      nixosConfigurations = {
-        atena = nixpkgs.lib.nixosSystem {
+    in
+    {
+      nixosConfigurations.venus =
+        nixpkgs.lib.nixosSystem {
           inherit system;
 
           modules = [
-            ./configuration.nix
+            ./hosts/venus
           ];
         };
-      };
     };
 }
