@@ -15,7 +15,7 @@
           inherit system;
 
           modules = [
-            ./hosts/venus
+            ./builds
           ];
         };
     };
