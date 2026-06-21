@@ -7,5 +7,6 @@
       ../modules/users/cogu.nix
       ../modules/profiles/dev.nix
       ../modules/profiles/home.nix
+      ../modules/profiles/game.nix
     ];
 }

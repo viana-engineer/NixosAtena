@@ -2,7 +2,7 @@
 {
 
   #======= USUARIO =======#
-  users.users.cogu = {
+  users.users.eugenio = {
     isNormalUser = true;
     extraGroups = [ 
       "wheel"           # Permite usar o comando 'sudo' para privilégios administrativos
