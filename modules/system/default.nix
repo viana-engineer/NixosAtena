@@ -85,7 +85,7 @@
 
   #======= FIREWALL =======#
   # Mantemos o firewall ativado por segurança (padrão)
-  networking.firewall.enable = true;
+  networking.firewall.enable = false;
 
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
