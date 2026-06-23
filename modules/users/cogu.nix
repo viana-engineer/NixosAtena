@@ -12,13 +12,6 @@
     ];
   };
 
-  environment.systemPackages = with pkgs; [
-    morewaita-icon-theme
-    tokyonight-gtk-theme
-  ];
 
-  fonts.packages = with pkgs; [
-    source-code-pro
-  ];
 
 }

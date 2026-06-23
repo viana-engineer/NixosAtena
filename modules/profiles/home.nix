@@ -1,6 +1,6 @@
 { config, lib, pkgs, ... }:
 {
-  #======= PACOTES =======#
+  
   environment.systemPackages = with pkgs; [
     
 
@@ -10,9 +10,9 @@
     gnome-tweaks        # Ajustes finos do GNOME
     discord             # Comunicação
     qbittorrent         # Gerenciador de torrents
-
-    
-    
+    libreoffice-fresh   # Suíte de escritório com os recursos mais recentes
+    inkscape            # Editor vetorial para criar e editar SVGs, PDFs e ilustrações
+   
   ];
 
 }

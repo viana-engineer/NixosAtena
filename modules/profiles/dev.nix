@@ -1,7 +1,8 @@
 { config, lib, pkgs, ... }:
 {
-  #======= PACOTES =======#
+ 
   environment.systemPackages = with pkgs; [
+    
     # --- Ferramentas de Sistema e Terminal --- #
     vim                 # Editor de texto terminal
     wget                # Downloader via linha de comando

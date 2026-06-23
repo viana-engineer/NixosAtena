@@ -1,6 +1,10 @@
 { config, lib, pkgs, ... }:
 {
 
+  imports = [
+    ./gnome.nix
+  ];
+
   #======= COMANDO NIX E FLAKES =======#
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
@@ -12,11 +16,7 @@
 
 
 
-  #======= INTEFACE GRAFICA =======#
-  services.xserver.enable = true;               # Habilita o servidor X11 (base para exibir janelas)
-  services.displayManager.gdm.enable = true;    # Ativa o GDM (tela de login do GNOME)
-  services.desktopManager.gnome.enable = true;  # Ativa o ambiente desktop GNOME
-  
+
 
   #======= LOCAL =======#
   time.timeZone = "America/Sao_Paulo";  # Fuso horário local (Brasil)
