@@ -9,6 +9,7 @@
   environment.systemPackages = with pkgs; [
     morewaita-icon-theme
     tokyonight-gtk-theme
+    kooha
   ];
 
 fonts.packages = with pkgs; [
