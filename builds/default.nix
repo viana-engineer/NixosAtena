@@ -10,5 +10,6 @@
       ../modules/profiles/home.nix
       ../modules/profiles/game.nix
       ../modules/profiles/documentos.nix
+      ../modules/profiles/music.nix
     ];
 }

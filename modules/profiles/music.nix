@@ -77,11 +77,6 @@
     # DAWs
     # ----------------------------------------------------------
 
-    # LMMS
-    # Composição, sequenciamento, MIDI, sintetizadores,
-    # bateria eletrônica e produção de música eletrônica.
-    lmms
-
     # Ardour
     # Gravação, edição, mixagem e produção.
     ardour
