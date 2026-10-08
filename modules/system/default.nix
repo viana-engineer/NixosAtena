@@ -75,13 +75,6 @@
     enableSSHSupport = true;
   };
 
-  #======= SOM =======#
-  services.pipewire = {
-    enable = true;
-    alsa.enable = true;   # Suporte ao ALSA (interface de baixo nível para o kernel do Linux)
-    pulse.enable = true;  # Habilita compatibilidade com PulseAudio
-    jack.enable = true;   # Habilita suporte ao JACK
-  };
 
   #======= FIREWALL =======#
   # Mantemos o firewall ativado por segurança (padrão)
